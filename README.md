@@ -18,20 +18,22 @@ ________________________________________
 **⚙️ How the System Works**
 1.	The MFRC522 RFID module is initialized over SPI.
 2.	Inside the main loop, the RFID status is polled continuously using:
-o	MFRC522_Request()
-o	MFRC522_Anticoll()
-3.	When an RFID tag or card is detected:
-o	The card UID is read.
-o	UID is compared against a list of allowed UIDs.
-4.	Based on authentication:
-o	Valid UID
-	LCD displays ACCESS GRANTED for 3 seconds
-	Servo rotates from 0° to 180° (unlock position)
-	After 3 seconds, LCD shows DOOR LOCKED
-	Servo rotates back to 0° (locked position)
-o	Invalid UID
-	LCD displays ACCESS DENIED for 3 seconds
-	LCD then returns to DOOR LOCKED
+   
+      MFRC522_Request()
+      MFRC522_Anticoll()
+  	
+4.	When an RFID tag or card is detected:
+   • The card UID is read.
+   • UID is compared against a list of allowed UIDs.
+5.	Based on authentication:
+    Valid UID
+      •	LCD displays ACCESS GRANTED for 3 seconds
+      •	Servo rotates from 0° to 180° (unlock position)
+      •	After 3 seconds, LCD shows DOOR LOCKED
+      •	Servo rotates back to 0° (locked position)
+  	Invalid UID
+      •	LCD displays ACCESS DENIED for 3 seconds
+      • LCD then returns to DOOR LOCKED
 ________________________________________
 **🧰 Software & Libraries**
 
