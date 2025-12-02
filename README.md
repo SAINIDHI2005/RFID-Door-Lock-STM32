@@ -5,9 +5,13 @@ The system continuously scans for RFID cards, verifies them, and controls a serv
 ________________________________________
 📦 Hardware Used
 •	STM32 Nucleo-F446RE
+
 •	RC522 RFID Reader (MFRC522)
+
 •	SG90 Servo Motor
+
 •	16×2 LCD (4-bit mode)
+
 •	Breadboard, jumper wires, power supply
 ________________________________________
 ⚙️ How the System Works
