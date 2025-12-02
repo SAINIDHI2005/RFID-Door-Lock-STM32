@@ -1,3 +1,5 @@
+🔐 RFID-Based Door Lock System using STM32 Nucleo F446RE
+
 This project implements a simple RFID-based access control system using the STM32 Nucleo-F446RE, RC522 RFID reader, 16×2 LCD display, and an SG90 servo motor. The entire prototype is built on a breadboard and uses SPI, PWM, and GPIO peripherals available on the STM32.
 The system continuously scans for RFID cards, verifies them, and controls a servo-based door lock mechanism based on authentication results.
 ________________________________________
