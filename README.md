@@ -35,10 +35,12 @@ ________________________________________
 🧰 Software & Libraries
 This project uses:
 •	STM32 HAL drivers
+
 •	RC522.h and related driver files
+
 •	lcd.h and LCD driver
+
 •	Standard C libraries (string.h, stdint.h, etc.)
-PWM is generated using TIM2–Channel 1 for controlling the servo.
-LCD is operated in 4-bit mode using GPIO pins.
-UART (USART2) is optionally used for debugging UID values.
+
+PWM is generated using TIM2–Channel 1 for controlling the servo. LCD is operated in 4-bit mode using GPIO pins. UART (USART2) is optionally used for debugging UID values of RFID tags or cards.
 
