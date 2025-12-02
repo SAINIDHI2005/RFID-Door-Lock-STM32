@@ -34,6 +34,7 @@ o	Invalid UID
 	LCD then returns to DOOR LOCKED
 ________________________________________
 **🧰 Software & Libraries**
+
 This project uses:
 
 •	STM32 HAL drivers
