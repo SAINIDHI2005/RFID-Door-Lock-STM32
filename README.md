@@ -12,6 +12,8 @@ This project demonstrates a basic access-control mechanism where a door lock is 
 - Breadboard, jumper wires, power supply  
 
 ---
+## ⚡ Circuit Diagram
+![image alt](https://github.com/SAINIDHI2005/RFID-Door-Lock-STM32/blob/22d4cd7346636bf5ae76a9dedb5d1f38536748ef/Screenshot%202025-12-02%20151008.png)
 
 ## ⚙️ How the System Works
 
@@ -45,6 +47,10 @@ This project uses:
 - `RC522.h` and related driver files  
 - `lcd.h` and LCD driver  
 - Standard C libraries (`string.h`, `stdint.h`, etc.)
+
+IOC File window:
+
+
 
 Additional details:
 
