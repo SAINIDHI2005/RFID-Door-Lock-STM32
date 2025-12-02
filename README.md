@@ -41,6 +41,7 @@ ________________________________________
       •	Servo rotates back to 0° (locked position)
   	
   	Invalid UID
+  	
       •	LCD displays ACCESS DENIED for 3 seconds
   	
       • LCD then returns to DOOR LOCKED
