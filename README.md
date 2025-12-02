@@ -24,12 +24,14 @@ ________________________________________
       MFRC522_Anticoll()
   	
 4.	When an RFID tag or card is detected:
+   
    • The card UID is read.
   	
    • UID is compared against a list of allowed UIDs.
    
 6.	Based on authentication:
     Valid UID
+  	
       •	LCD displays ACCESS GRANTED for 3 seconds
   	
       •	Servo rotates from 0° to 180° (unlock position)
