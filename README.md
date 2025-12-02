@@ -20,6 +20,7 @@ ________________________________________
 2.	Inside the main loop, the RFID status is polled continuously using:
    
       MFRC522_Request()
+  	
       MFRC522_Anticoll()
   	
 4.	When an RFID tag or card is detected:
