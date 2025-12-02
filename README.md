@@ -6,10 +6,11 @@ This project demonstrates a basic access-control mechanism where a door lock is 
 
 ## 📦 Hardware Used
 - STM32 Nucleo-F446RE  
-- RC522 RFID Reader (MFRC522)  
+- RC522 RFID Reader (MFRC522) 
 - SG90 Servo Motor  
 - 16×2 LCD (4-bit mode)  
-- Breadboard, jumper wires, power supply  
+- Breadboard, jumper wires, power supply
+- 4x AA Batteries and Holder
 
 ---
 
@@ -62,3 +63,6 @@ Additional details:
 - UART (USART2) is optionally used for debugging UID values.
 
 ---
+
+## Project Image:
+![image alt](https://github.com/SAINIDHI2005/RFID-Door-Lock-STM32/blob/0832ed2848aec3c5fa4ea1a3ff2479425d09ca23/WhatsApp%20Image%202025-12-02%20at%2015.21.28_5ea8f595.jpg)
