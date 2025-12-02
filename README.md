@@ -4,6 +4,7 @@ This project implements a simple RFID-based access control system using the STM3
 The system continuously scans for RFID cards, verifies them, and controls a servo-based door lock mechanism based on authentication results.
 ________________________________________
 **📦 Hardware Used**
+
 •	STM32 Nucleo-F446RE
 
 •	RC522 RFID Reader (MFRC522)
@@ -34,6 +35,7 @@ o	Invalid UID
 ________________________________________
 **🧰 Software & Libraries**
 This project uses:
+
 •	STM32 HAL drivers
 
 •	RC522.h and related driver files
